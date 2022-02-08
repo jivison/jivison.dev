@@ -1,0 +1,30 @@
+.text-body {
+  width: 50%;
+}
+
+.coding-about-page,
+.about-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.coding-about-page {
+  .code.block {
+    width: 30%;
+  }
+}
+
+.about-page {
+  small {
+    margin-top: 10px;
+    font-style: italic;
+  }
+
+  .photo {
+    width: 300px;
+    border-radius: 1em;
+    border: #e41f4a 2px solid;
+    box-shadow: 5px 5px 15px #e41f4a;
+  }
+}

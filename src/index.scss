@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+
+body {
+  font-family: "Source Code Pro", monospace;
+  font-size: 110%;
+}
+
+a,
+a:visited {
+  color: darkcyan;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.indented {
+  margin-left: 3em;
+}
+
+.code {
+  &.comment {
+    color: grey;
+  }
+
+  &.string {
+    color: rgb(31, 161, 31);
+  }
+
+  &.keyword {
+    color: rgb(192, 47, 192);
+  }
+
+  &.variable {
+    color: dodgerblue;
+  }
+
+  &.number {
+    color: rgb(201, 100, 17);
+  }
+
+  &.property {
+    color: rgb(255, 143, 52);
+  }
+
+  &.block {
+    text-align: left;
+    background: whitesmoke;
+    padding: 1px 10px;
+    border-radius: 1em;
+  }
+}

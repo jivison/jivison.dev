@@ -1,0 +1,28 @@
+.Navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+  .tag {
+    color: grey;
+    user-select: none;
+    cursor: pointer;
+  }
+
+  .links {
+    display: flex;
+
+    .link {
+      padding-left: 1em;
+      color: black;
+    }
+  }
+
+  .grow {
+    flex-grow: 1;
+  }
+
+  .end {
+    padding-right: 1em;
+  }
+}
